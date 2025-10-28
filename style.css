@@ -27,6 +27,7 @@ nav{
     align-items: center;
     font-size: 2rem;
     font-weight: 600;
+    /* border: 2px solid black; */
 }
 
 .logo > img{
@@ -100,7 +101,7 @@ main{
     justify-content: space-evenly;
 }
 
-.donate-btns > button{
+.donate-btns > button, .btns{
     background-color: #2f82f7;
     padding: 15px 20px;
     border: 1px solid #2d68b9;
@@ -269,4 +270,79 @@ main{
 .card:hover{
     transform: scale(1.03);
     cursor: pointer;
+}
+
+.join-hopebridge{
+    display: flex;
+    width: 100rem;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    margin-bottom: 5rem;
+}
+
+.join-hopebridge > div h2{
+    font-size: 2.5rem;
+}
+.join-hopebridge > div p{
+    font-size: 1.3rem;
+}
+
+footer {
+    /* background: rgba(229, 229, 230, 0.7); */
+    /* backdrop-filter: blur(8px); */
+    text-align: center;
+    padding: 3rem 2rem;
+    /* border-top: 2px solid rgba(0, 0, 0, 0.05); */
+}
+
+.footer-content {
+    max-width: 100rem;
+    margin: 0 auto;
+    color: #1A1A2E;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.footer-links {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #1A1A2E;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #2f82f7;
+}
+
+footer p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+footer .copyright {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+hr{
+    width: 60%;
 }
