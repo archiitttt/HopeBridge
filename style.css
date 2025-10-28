@@ -157,3 +157,50 @@ main{
     border-radius: 50px;
     backdrop-filter: blur(5px);
 }
+
+.content2{
+    /* border: 2px solid black; */
+    height: 25rem;
+    width: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly; 
+    margin-bottom: 5rem;
+}
+
+.content2 > h2{
+    font-size: 2.5rem;
+}
+
+.content2 > ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    gap: 7rem;
+}
+
+.content2 > ul > li{
+    text-align: center;
+}
+
+.content2 > ul > li > h3{
+    font-size: 1.4rem;
+    margin: 12px 0;
+}
+
+.content2 > ul > li > img{
+    height: 5rem;
+    width: 5rem;
+    filter: brightness(115%);
+}
+
+.content2 > ul > li > p{
+    font-size: 1.3rem;
+    max-width: 20rem;
+    margin-top: 0;
+}
+
+.content2 > ul > li:hover{
+    cursor: pointer;
+}
