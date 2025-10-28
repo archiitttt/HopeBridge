@@ -109,6 +109,10 @@ main{
     width: 13rem;
 }
 
+.btn:active{
+    translate: 0px 1.5px;
+}
+
 .content{
     /* border: 2px solid black; */
     height: 25rem;
