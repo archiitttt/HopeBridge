@@ -1,0 +1,24 @@
+{
+  "name": "hopebridge",
+  "version": "1.0.0",
+  "description": "HopeBridge is a fundraising platform.",
+  "homepage": "https://github.com/archiitttt/HopeBridge#readme",
+  "bugs": {
+    "url": "https://github.com/archiitttt/HopeBridge/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archiitttt/HopeBridge.git"
+  },
+  "license": "ISC",
+  "author": "Archit Kaushal",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
